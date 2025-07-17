@@ -1,1 +1,0 @@
-# shatar-lemak.github.io
