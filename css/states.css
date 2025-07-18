@@ -1,0 +1,51 @@
+* {
+    font-family: "font3";
+}
+
+h1 {
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 2em;
+}
+
+.state_title {
+    color: #313131;
+    padding: 0 5vw;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.state_text {
+    color: #313131;
+    padding: 0 5vw;
+    font-size: 1.5em;
+    /* text-align: center; */
+}
+
+.line {
+    border: solid 0.7vw #ddae71;
+    border-radius: 3vh;
+    height: 0;
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: 1000;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.green {
+    color: #177200;
+}
+.blue {
+    color: #003f72;
+}

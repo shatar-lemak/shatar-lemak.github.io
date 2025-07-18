@@ -18,6 +18,11 @@
     src: url("fonts/Blackcraft.ttf");
 }
 
+@font-face {
+    font-family: "font5";
+    src: url("fonts/Finlandica.ttf");
+}
+
 * {
     font-family: "font3";
     box-sizing: border-box;
