@@ -56,6 +56,7 @@ body {
     grid-template-columns: 0.5fr 1fr 10fr 1.5fr;
     border-bottom: solid 0.4vh #e4e4e4;
     border-radius: 0 0 1vh 1vh;
+    top: -3px;
 }
 
 #menu-arrow {

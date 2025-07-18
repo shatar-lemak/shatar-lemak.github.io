@@ -24,4 +24,9 @@ document.addEventListener("click", function(e) {
     if (e.target.classList.contains("menu-activator")) {
         MenuManage()
     }
+
+    if (e.target.classList.contains("menu-disactivator") && mobileMenuActivisated) {
+        MenuManage()
+    }
+
 })
