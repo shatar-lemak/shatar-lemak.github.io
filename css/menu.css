@@ -78,7 +78,7 @@ body {
     width: 100vw;
     position: fixed;
     /* top: 10vh; */
-    top: -40vh;
+    top: -45vh;
     display: flex;
     flex-direction: column;
     align-items: center;

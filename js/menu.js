@@ -14,7 +14,7 @@ function MenuManage() {
     else if (mobileMenuActivisated) {
         mobileMenuActivisated = false
         arrow.style.rotate = "0deg"
-        topMenuButtons.style.top = "-40vh"
+        topMenuButtons.style.top = "-45vh"
         content.style.filter = "none"
         invisible_screen.style.display = "none"
     }
@@ -29,4 +29,9 @@ document.addEventListener("click", function(e) {
         MenuManage()
     }
 
+})
+
+
+document.addEventListener("contextmenu", function(e) {
+    e.preventDefault()
 })
