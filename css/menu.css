@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "font1";
+    src: url("fonts/InkVerse.ttf");
+}
+
+@font-face {
+    font-family: "font2";
+    src: url("fonts/BryndanWrite.ttf");
+}
+
+@font-face {
+    font-family: "font3";
+    src: url("fonts/Chalkboard.ttf");
+}
+
+@font-face {
+    font-family: "font4";
+    src: url("fonts/Blackcraft.ttf");
+}
+
+* {
+    font-family: "font3";
+    box-sizing: border-box;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(200, 247, 247);
+}
+
+.header-top {
+    position: relative;
+    height: 7vh;
+    width: 100vw;
+
+}
+
+#invisible_screen {
+    width: 100vw;
+    height: 100vh;
+    background: #ffffff23;
+    position: fixed;
+    z-index: 50;
+    display: none;
+}
+
+.header-top-menu {
+    z-index: 100;
+    position: fixed;
+    width: 100vw;
+    background: #f7f5f4;
+    height: 7vh;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 10fr 1.5fr;
+    border-bottom: solid 0.4vh #e4e4e4;
+    border-radius: 0 0 1vh 1vh;
+}
+
+#menu-arrow {
+    aspect-ratio: 1/1;
+    max-height: 7vh;
+    transition: rotate 0.6s;
+    /* rotate: 90deg; */
+}
+
+.logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "font3";
+}
+
+#top-menu_buttons {
+    width: 100vw;
+    position: fixed;
+    /* top: 10vh; */
+    top: -40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 99;
+    transition: top 0.5s;
+}
+
+.button {
+    margin-bottom: 5vh;
+    aspect-ratio: 4/1;
+    width: 80vw;
+    max-height: 12vh;
+    filter: none;
+    transition: filter 0.5s; 
+}
+
+.button-box:active {
+    filter: sepia(0.12);
+}
+
+.button_text {
+    aspect-ratio: 4/1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    max-height: 12vh;
+    font-size: 120%;
+    padding-bottom: 2%;
+    color: #aca250;
+}
+
+
+
+#header-content {
+    transition: filter 0.5s;
+}
